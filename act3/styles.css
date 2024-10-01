@@ -1,13 +1,7 @@
-ul{
-    padding: 1em;
-}
-.clickable-div{
-    background-color: rgb(47, 144, 255);
-    padding: 2em;
+input{
+    padding: 0.5em;
     border-radius: 0.5em;
+    border-style: none;
+    width: 20em;
     margin: 1em 0em;
-text-align: center;
-}
-.color1{
-    background-color: rgb(255, 95, 95);
 }
