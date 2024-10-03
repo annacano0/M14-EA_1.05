@@ -1,0 +1,55 @@
+body{
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+header{
+    margin: 2em 0em;
+}
+
+article{
+    background-color: rgb(255, 202, 235);
+    color: rgb(187, 10, 84);
+    padding: 0.5em;
+    width: 40em;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 0.5em;
+    margin: 0.25em;
+}
+
+article p{
+    width: 70%;
+    text-align: left;
+    padding: 0.5em;
+}
+
+input{
+    padding: 0.5em;
+    border-radius: 0.5em;
+    border-style: none;
+    width: 20em;
+    margin: 1em 0em;
+}
+
+.color-green{
+    background-color: rgb(110, 228, 110);
+    color: white;
+}
+
+.color-red{
+    background-color: rgb(255, 107, 107);
+    color: white;
+}
+
+.color-yellow{
+    background-color: rgb(255, 191, 107);
+    color:  white;
+}
+
+.done{
+    color: rgba(218, 238, 255, 0.356);
+    background-color: rgba(240, 248, 255, 0.267);
+
+}

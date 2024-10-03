@@ -4,10 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Manipulació del DOM</title>
-  <script src="form.js" defer></script>
+  <script src="script.js" defer></script>
   <link rel="stylesheet" href="../global.css">
   <link rel="stylesheet" href="./styles.css">
+
 </head>
 <body>
-    <h1>Llista de productes</h1>
+  <header>
+     <h1>Lista de productes</h1>
+    <form id="product-form">
+     <input type="new-product"  id="new-product-input" placeholder="Afegeix un producte">
+     <button class="color-green">Afegeix</button>
+    </form>
+  </header>
+   
+    <div id="product-container"></div>
 </body>
